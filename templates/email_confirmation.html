@@ -1,0 +1,9 @@
+{% autoescape off %}
+
+Welcome to G7 login
+Hello {{ name }}!
+Please confirm your email by clicking on the following link !
+
+Confimation Link: http://{{ domain }}{% url 'activate' uidb64=uid token=token %}
+
+{% endautoescape %}
