@@ -1,3 +1,7 @@
+# # G7- LOG IN & SIGN UP SYSTEM
+
+![SEVEN](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPGQvyXgWnq2b5a_10HNDJJG2wq-uqz1eMHw&s)
+
 This project is a group Project done to fullfil the COE 301 Requirements.
 The project contains a fully funtioning:
  1. Log In Page
