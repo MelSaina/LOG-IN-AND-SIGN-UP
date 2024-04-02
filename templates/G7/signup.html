@@ -25,7 +25,9 @@
         <h3> Sign Up! </h3>
 
         <form action="/signup"  method="post">
+            
             {% csrf_token %}
+
             <div class="mb-3 mt-3">
                 <label for="Username" class="form-label" >Username:</label><br>
                 <input type="text" id="username" name="username" placeholder="Your username letters or Numbers.."><br>
@@ -42,7 +44,7 @@
             </div>
             <div class="mb-3">
                 <label for="">Email Address:</label><br>
-                <input type="email" id="emaii" name="emaii" placeholder="Your emaii letters or Numbers.."><br>
+                <input type="email" id="email" name="email" placeholder="Your emaii letters or Numbers.."><br>
             </div>
 
             <div class="input-group mb-3">
